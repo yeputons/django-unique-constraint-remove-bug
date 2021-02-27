@@ -10,5 +10,5 @@ class ModelB(models.Model):
 
     class Meta:
         constraints = [
-            models.UniqueConstraint(fields=['a_ptr', 'x'], name='%(app_label)s_%(class)s_unique_a_ptr_x'),
+#            models.UniqueConstraint(fields=['a_ptr', 'x'], name='%(app_label)s_%(class)s_unique_a_ptr_x'),
         ]
